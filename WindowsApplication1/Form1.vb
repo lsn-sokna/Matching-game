@@ -5,7 +5,7 @@
 
     Private Sub lblCard1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblCard1.Click, lblCard2.Click, lblCard3.Click, lblCard4.Click, lblCard5.Click, lblCard6.Click
         lblCurrentCard = CType(sender, System.Windows.Forms.Label)
-        txtBox.Text = "Now,Which card do you think will match this one"
+        txtBox.Text = "Now,which card do you think will match this one"
         Select Case lblCurrentCard.Name
             Case "lblCard1"
                 lblCurrentCard.Text = "Apple"
